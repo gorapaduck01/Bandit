@@ -33,7 +33,7 @@ Bandit은 `SSH`를 활용해 이미 만들어진 서버에 특정 사용자 계�
 
 #### `-4/6` : IPv4 혹은 IPv6로만 접속하도록 한다.
 #### `-C` : 모든 데이터를 압축하여 전송한다.
-#### '-E log_file' : log_file 에 이어서 디버그 로그를 기록한다.
+#### `-E log_file` : log_file 에 이어서 디버그 로그를 기록한다.
 #### `-p port` : remote host에 대한 포트로 접속한다.
 #### `-q` : 조용한 모드, 대부분의 경고나 메세지를 보이지 않게 한다.
 #### `-i identity_file` : 공개 키 인증 방식에서 사용할 개인 키(private key) 파일의 경로를 지정한다.
@@ -46,6 +46,6 @@ Bandit은 `SSH`를 활용해 이미 만들어진 서버에 특정 사용자 계�
 
 ```seed@VM:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220```
 
-<img width="1328" height="793" alt="image" src="https://github.com/user-attachments/assets/2b8f381a-ecd7-4d58-8306-9bd1396874bf" />
+<img width="489" height="144" alt="image" src="https://github.com/user-attachments/assets/3798f979-62ef-44b0-a4c2-9839ba49c817" />
 
 앞으로 이와 같은 방식으로 Bandit 문제들을 풀 수 있다.
